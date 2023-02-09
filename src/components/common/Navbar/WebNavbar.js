@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from "./WebNavbar.module.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-// import logoImg from "../../images/mg-hr-green-nobg.png";
-import logoImg from "../../images/mg.svg";
+import logoImg from "../../../images/mg.svg";
+// import logoImg from "../../../images/mg-hr-green-nobg.png";
 // import Button from 'react-bootstrap/Button';
 // import Form from 'react-bootstrap/Form';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -23,7 +24,7 @@ const WebNavbar = () => {
   return (
     <>
       {['md'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="mb-0 p-0">
+        <Navbar key={expand} expand={expand} className={`${styles.webNavbar} mb-0 p-0`} sticky='top'>
           <Container fluid className='p-2'>
             {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
             <Navbar.Brand href="#home">
