@@ -6,13 +6,13 @@ import styles from "./Projects.module.scss";
 const Projects = () => {
   return (
     <>
-      <Container fluid>
+      <Container className={styles.projectsContainer} fluid>
         <Row>
-          <Col className={styles.aboutDataCol}>
-
+          <Col>
+            <h1 className='display-2 fw-bold'>My Projects</h1>
           </Col>
-          <Col className={styles.aboutBgCol}>
 
+          <Col className={cx(styles.projectBgCol, '')}>
           </Col>
         </Row>
       </Container>

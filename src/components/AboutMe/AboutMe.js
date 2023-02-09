@@ -8,7 +8,7 @@ const AboutMe = () => {
   const AboutData = () => {
     return (
       <>
-        <Container className={cx(styles.aboutData, 'pe-5')}>
+        <Container className={cx(styles.aboutData, 'pe-5 ,pb-5')}>
           <h1 className={cx('display-1 fw-bold', styles.aboutDataTitle)}>About Me</h1>
           <Container className={cx(styles.aboutDataContent, 'p-0')} fluid>
             <blockquote className='blockquote'>
@@ -22,9 +22,9 @@ const AboutMe = () => {
   }
   return (
     <>
-      <Container fluid>
+      <Container fluid >
         <Row>
-          <Col className={styles.aboutDataCol}>
+          <Col className={cx('', styles.aboutDataCol)}>
             <AboutData />
           </Col>
           <Col className={styles.aboutBgCol}>
