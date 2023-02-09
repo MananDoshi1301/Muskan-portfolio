@@ -1,0 +1,12 @@
+@font-face {
+  font-family: myPortfolioFont;
+  src: url(./images/fonts/Junge_Regular.ttf);
+}
+
+@mixin commonPaddingLeft {
+  padding-left: 10%;
+}
+
+/* .App{
+  font-family: myPortfolioFont;
+} */

@@ -17,7 +17,7 @@ const Banner = () => {
             <div>
               <Stack gap={2}>
                 <h1 className='fw-bolder'>
-                  Bringing innovation to Tech industry as ...
+                  Bringing innovation to Tech industry as...
                 </h1>
                 <div>
                   <ImArrowDown2 size={50} lengthAdjust={100} color='#50A060' />
