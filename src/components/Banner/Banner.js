@@ -8,7 +8,7 @@ const Banner = () => {
 
   const BannerDataCol = () => {
     return (
-      <Col className={styles.bannerDataCol}>
+      <Col xl={6} lg={6} md={6} sm={12} className={styles.bannerDataCol}>
         <Container>
           <Stack gap={4}>
             <div>
@@ -32,7 +32,7 @@ const Banner = () => {
 
   const BannerImgCol = () => {
     return (
-      <Col className={styles.bannerImgCol}></Col>
+      <Col xl={6} lg={6} md={6} sm={12} className={styles.bannerImgCol}></Col>
     )
   }
 
