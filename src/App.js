@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.scss';
+import './App.css';
 import cx from "classnames";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WebNavbar from './components/common/Navbar/WebNavbar';
