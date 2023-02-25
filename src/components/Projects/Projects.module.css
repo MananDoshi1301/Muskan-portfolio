@@ -1,0 +1,19 @@
+.projectsContainer{
+  font-family: myPortfolioFont;
+}
+
+.projectHeader{
+  position: relative;
+}
+
+.projectBgCol{
+  background-color: #50A060;
+} 
+
+.overlayCarouselDiv{
+  position: absolute;  
+}
+
+.overlayCarouselDiv > *{
+  max-height: 20px!important;
+}
